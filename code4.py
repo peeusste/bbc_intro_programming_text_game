@@ -39,12 +39,12 @@ def look_around(r):
             print('a fly buzzes around annoyingly...')
     print()
 
-def move_room(r, dir):
+def move_room(r, direction):
     new_room = r
 
     if dir in rooms[r]:
-        new_room = rooms[r][dir]
-        print('moving you', dir)
+        new_room = rooms[r][direction]
+        print('moving you', direction)
     else:
         print('you can\t go in that direction')
 

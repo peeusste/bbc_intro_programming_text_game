@@ -50,12 +50,12 @@ def look_around(r):
             print('a fly buzzes around annoyingly...')
     print()
 
-def move_room(r, dir):
+def move_room(r, direction):
     new_room = r
 
     if dir in rooms[r]:
-        new_room = rooms[r][dir]
-        print('moving you', dir)
+        new_room = rooms[r][direction]
+        print('moving you', direction)
     else:
         print('you can\t go in that direction')
 
@@ -78,7 +78,7 @@ def check_bag():
 def pickup(object):
     # object not in room
     if object not in objects or objects[object] != current_room:
-        print ('You can\'t see a', object, 'here')
+        print('You can\'t see a', object, 'here')
 
     else:
         print('You pick up a', object, 'and put it in your bag')
@@ -89,7 +89,7 @@ def pickup(object):
 def drop(object):
     # object not in bag
     if object not in objects or objects[object] != 'bag':
-        print ('You dont\'t have a', object)
+        print('You dont\'t have a', object)
 
     else:
         print('You drop a', object)
@@ -115,7 +115,7 @@ while True:
     elif user_input[0] == 'look':
         look_around(current_room)
 
-    elif user_input[0] == 'bag' or ( user_input[0] == 'check' and user_input[1] == 'bag'):
+    elif user_input[0] == 'bag' or (user_input[0] == 'check' and user_input[1] == 'bag'):
         check_bag()
 
     elif user_input[0] == 'get':

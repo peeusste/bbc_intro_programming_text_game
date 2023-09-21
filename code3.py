@@ -23,7 +23,7 @@ while True:
 
     try:
         if user_input[0] == 'go' or user_input[0] == 'move':
-            print ('moving you', user_input[1])
+            print('moving you', user_input[1])
             room_index = room_index + 1
             if room_index == len(rooms):
                 room_index = 0
