@@ -3,18 +3,18 @@
 # Print out their names, ages and combined age
 
 person1 = "Sam"
-agePerson1 = 23
+age_person1 = 23
 person2 = "Suri"
-agePerson2 = 35
+age_person2 = 35
 
-print(person1, "is", agePerson1) 
-print(person2, "is", agePerson2) 
-print("Their combined age is", agePerson1 + agePerson2)
+print(person1, "is", age_person1) 
+print(person2, "is", age_person2) 
+print("Their combined age is", age_person1 + age_person2)
 
 ''' 
 #Could also do
-combinedAge = agePerson1 + agePerson2
-print("Their combined age is", combinedAge)
+combined_age = age_person1 + age_person2
+print("Their combined age is", combined_age)
 '''
 
 
