@@ -12,4 +12,4 @@ while start_number > 0:
     start_number -= 1
 
 # Print the final message after the loop
-print("We have blast off!")
+print("We have lift off!")
