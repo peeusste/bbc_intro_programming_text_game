@@ -9,7 +9,7 @@ pizza = input("What's your favourite pizza? ")
 topping = input("And what's your favourite pizza topping? ")
 
 # Print the personalized greeting
-print("Great choice!", pizza, "with", topping, "is a my favourite too!")
+print("Great choice!", pizza, "with", topping, "is my favourite too!")
 
 #Extra exercise
 # Prompt the user to enter three numbers. Then, output the sum of the three numbers
