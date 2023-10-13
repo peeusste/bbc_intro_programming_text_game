@@ -1,5 +1,6 @@
 # Practical exercise
-# Create two variables for two people's name and two for their age. Print out their names, ages and combined age
+# Create two variables for two people's names and two for their ages. Assign them some values
+# Print out their names, ages and combined age
 
 person1 = "Sam"
 agePerson1 = 23
