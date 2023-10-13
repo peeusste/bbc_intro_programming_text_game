@@ -6,8 +6,8 @@
 pizza = input("What's your favourite pizza? ")
 
 # Prompt the user for their favourite topping
-topping = input("And what's your favourite pizza toppin  g? ")
+topping = input("And what's your favourite pizza topping? ")
 
 # Print the personalized greeting
-print("Great choice!",pizza, "with", topping, "is a my favourite too!")
+print("Great choice!", pizza, "with", topping, "is a my favourite too!")
 
