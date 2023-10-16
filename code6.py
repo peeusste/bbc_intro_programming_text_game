@@ -1,4 +1,4 @@
-# first refactor with functions, lowercase, more complex data.py structures, 'in'
+# first refactor with functions, 'lowercase' and 'in'
 
 from random import randint
 
