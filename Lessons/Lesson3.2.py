@@ -34,8 +34,7 @@ while i<len(films):
         # reset the faves list
         faves=[]
         faves.append(films[i])
-    elif 
-        ratings[i]==max_fave:
+    elif ratings[i]==max_fave:
         faves.append(films[i])
     i+=1
 if len(faves)==1:
