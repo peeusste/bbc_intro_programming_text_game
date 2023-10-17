@@ -13,8 +13,7 @@ i=0
 
 # Loop through each film and prompt the user for a rating
 while i<len(films):
-    film=films[i]
-    print(film)    
+    print(films[i])    
     rating = int(input("Rate this film:"))
     ratings.append(rating)
     i+=1
