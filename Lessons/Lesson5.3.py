@@ -18,6 +18,6 @@ len=len(quote_list)
 
 # Print the number of words and the first/last word
 print("Number of Words:", len)
-print ('The first word is ',quote_list[0], 'and the last word is', quote_list[len-1])
+print ('The first word is',quote_list[0], 'and the last word is', quote_list[len-1])
 
 
