@@ -9,7 +9,7 @@
 #   a with %
 #   o with ^
 #   t with &
-# Decrypt the secret message and split it into words using ONE LINE of Python
+# Decrypt the secret message using ONE LINE of Python
 # Print out the full decryted message 
 # Do the reverse and encrypt the message to check it works
 # Finally accept some user input and encrypt that message
