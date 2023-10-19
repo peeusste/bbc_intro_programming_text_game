@@ -10,27 +10,23 @@
 #   o with ^
 #   t with &
 # Decrypt the secret message and split it into words using ONE LINE of Python
-# Print out the full decryted message and how many words are in the message
+# Print out the full decryted message 
 # Do the reverse and encrypt the message to check it works
 # Finally accept some user input and encrypt that message
 
-secret_message='H$ll^,#&h£s#£s#%#gr$%&#py&h^n#c^urs$#%nd#I#%m#l$%rn£ng#%#l^&'
+secret_message = 'H$ll^,#&h£s#£s#%#gr$%&#py&h^n#c^urs$#%nd#I#%m#l$%rn£ng#%#l^&'
 
-decoded_message = (secret_message.replace('#', ' ')
-                                    .replace('!', 'L')
-                                    .replace('£', 'i')
-                                    .replace('$', 'e')
-                                    .replace('%', 'a')                                    
-                                    .replace('^', 'o')
-                                    .replace('&', 't')
-                                     )
-                                    
+decoded_message = secret_message.replace('#', ' ').replace('!', 'L').replace('£', 'i').replace('$', 'e').replace('%', 'a').replace('^', 'o').replace('&', 't')
+
 translated_message = decoded_message.replace(' ', '#').replace('L', '!').replace('i', '£').replace('a', '%').replace('e', '$').replace('o', '^').replace('t', '&')
 
-if translated_message==secret_message: 
+if translated_message == secret_message: 
     print ("We have a match, so  the code works!")
 
 print(decoded_message)
 
+my_secret_message = input('Enter the message you want encrypted >').replace(' ', '#').replace('L', '!').replace('i', '£').replace('a', '%').replace('e', '$').replace('o', '^').replace('t', '&')
 
-# message was "Hello, this is a great python course and I am learning a lot"
+print ('Here is your secret message', my_secret_message)
+
+# NOTE: message was "Hello, this is a great python course and I am learning a lot"
