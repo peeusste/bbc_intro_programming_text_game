@@ -35,7 +35,7 @@ print('you are in', rooms[current_room]['description'])
 print()
 
 while True:
-    user_input = input('What do you want to do >').lower().split(' ')
+    user_input = input('What do you want to do >').split(' ')
     # user_input[0] = 'move' or 'go'; user_input[1] = 'north', 'east' etc.
 
     if (user_input[0] == 'go' or user_input[0] == 'move') and len(user_input) == 2:
