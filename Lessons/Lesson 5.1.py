@@ -11,18 +11,18 @@ friends = {
         'skill': 'Plays guitar',
         'number_of_languages_spoken': 1
     },
-    'chris': {
-        'name': 'Chris',
-        'placeOfBirth': 'Devon',
-        'skill': 'Great organiser',
-        'number_of_languages_spoken': 1
-    },
     'andrea': {
         'name': 'Andrea',
         'placeOfBirth': 'Aberdeen',
         'skill': 'Carpentry',
         'number_of_languages_spoken': 2
-    }
+    },
+    'chris': {
+        'name': 'Chris',
+        'placeOfBirth': 'Devon',
+        'skill': 'Great organiser',
+        'number_of_languages_spoken': 1
+    }    
 }
 
 # print (friends)
