@@ -1,4 +1,4 @@
-# bbc_intro_programming_text_game
+# Programming for Non-Programmers
 
 The [wiki](https://github.com/peeusste/bbc_intro_programming_text_game/wiki) contains the lessons where we will learn Programming for Non-Programmers using the Python language.
 
