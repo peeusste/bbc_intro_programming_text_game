@@ -6,6 +6,8 @@ At the end of each lesson section there is a very short coding challenge. After 
 
 And then, at the end of each full lesson there is a summary and a discussion about how that lesson relates to the code that's to be developed in the text adventure game.
 
-Happy coding!
+So, let's start with [Lesson 0 - Set up and getting started](https://github.com/peeusste/bbc_intro_programming_text_game/wiki/Lesson-0)
+
+**_Happy coding!_**
 
 
