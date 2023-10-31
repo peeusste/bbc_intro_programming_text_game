@@ -14,12 +14,12 @@ print("The Number Guessing Game. You have", num_guesses, "tries")
 print("=================================================")
 while num_guesses>0:
     guess = int(input("Guess a number between 1 and 10>"))
-    if guess==to_guess:
+    if guess == to_guess:
         print("Congratulations! You guessed the number!")
         break
     else: 
-        num_guesses-=1
-        if num_guesses>0:
+        num_guesses -= 1
+        if num_guesses > 0:
             print("Sorry, that's wrong. You have", num_guesses, "left")
         else:
             print("You are out of tries! The number was", to_guess)
