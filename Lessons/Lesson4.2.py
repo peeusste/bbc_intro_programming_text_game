@@ -12,7 +12,7 @@ num_guesses = 3
 
 print("The Number Guessing Game. You have", num_guesses, "tries")
 print("=================================================")
-while num_guesses>0:
+while num_guesses > 0:
     guess = int(input("Guess a number between 1 and 10>"))
     if guess == to_guess:
         print("Congratulations! You guessed the number!")
