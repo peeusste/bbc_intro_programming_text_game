@@ -8,6 +8,6 @@ while True:
     elif myFirstVariable == 'sing':
         print('la la de da')
     elif myFirstVariable == 'order pizza':
-        print('spicy american is on it\'s way')
+        print("spicy american is on it's way")
     else:
-        print('You typed - ', myFirstVariable, ' - I don\'t know what to do about that')
+        print('You typed - ', myFirstVariable, " - I don't know what to do about that")
