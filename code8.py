@@ -35,7 +35,7 @@ def move_room(r, dir):
         new_room = rooms[r][dir]
         print('moving you', dir)
     else:
-        print('you can\t go in that direction')
+        print("you can't go in that direction")
 
     look_around(new_room)
 
@@ -56,7 +56,7 @@ def check_bag():
 def pickup(object):
     # object not in room
     if object not in objects or objects[object] != current_room:
-        print ('You can\'t see a', object, 'here')
+        print ("You can't see a", object, 'here')
 
     else:
         print('You pick up a', object, 'and put it in your bag')
@@ -67,7 +67,7 @@ def pickup(object):
 def drop(object):
     # object not in bag
     if object not in objects or objects[object] != 'bag':
-        print ('You dont\'t have a', object)
+        print ("You don't have a", object)
 
     else:
         print('You drop a', object)
@@ -103,4 +103,4 @@ while True:
         drop(user_input[1])
 
     else:
-        print('sorry, I don\'t know how to help you')
+        print("sorry, I don't know how to help you")
