@@ -53,11 +53,11 @@ def look_around(r):
 def move_room(r, direction):
     new_room = r
 
-    if dir in rooms[r]:
+    if direction in rooms[r]:
         new_room = rooms[r][direction]
         print('moving you', direction)
     else:
-        print('you can\t go in that direction')
+        print("you can't go in that direction")
 
     look_around(new_room)
 
@@ -125,4 +125,4 @@ while True:
         drop(user_input[1])
 
     else:
-        print('sorry, I don\'t know how to help you')
+        print("sorry, I don't know how to help you")
