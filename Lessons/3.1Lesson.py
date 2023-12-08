@@ -1,6 +1,22 @@
-# From a predefined list of films prompt the user with the name of each film and get a rating for the films
+# Challenge #1
+# Create a list of favourite films 
+# Print out the films with an appropriate message
+# The films could be  "Citizen Kane", "The Matrix", "The Godfather" and "The Shawshank Redemption"
+
+
+films = ["Citizen Kane", "The Matrix", "The Godfather", "The Shawshank Redemption"]
+
+# Counter to run through list
+i=0
+
+# Loop through and print each film 
+while i<len(films):
+    print(films[i], "is one of your favourite films")    
+    i+=1
+
+# Challenge #2
+# Using the same list of films, prompt the user with the name of the film and ask for a rating for that film
 # Print out the films and their corresponding ratings
-# The films are "Citizen Kane", "The Matrix", "The Godfather" and "The Shawshank Redemption"
 # HINT: Create an empty list to store the ratings in 
 
 films = ["Citizen Kane", "The Matrix", "The Godfather", "The Shawshank Redemption"]
