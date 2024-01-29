@@ -8,13 +8,13 @@
 
 # You can solve this challenge by using inputs, variables for counters, a while loop and if/elif statements
 
-fruit_count = int(input("What piece of fruit did you take out of the bag?"))
+fruit_count = int(input("How many fruits do you have?"))
 banana_count = 0
 apple_count = 0
 
 i = 0
 while i < fruit_count:
-    fruit = input("Enter your fruit")
+    fruit = input("What piece of fruit did you take out of the bag?")
     if fruit == "banana":
         banana_count = banana_count + 1
     elif fruit == "apple":
@@ -24,3 +24,26 @@ while i < fruit_count:
 print("You have", banana_count, "bananas")
 print("You have", apple_count, "apples")    
 
+# Extra crazy challenge
+# Oh oh, your friend has just said to you that she now wants to know how many other items were in the bag! 
+# Add a catch-all for other items and print out the number of other items.
+
+fruit_count = int(input("How many fruits do you have?"))
+banana_count = 0
+apple_count = 0
+other_count = 0
+
+i = 0
+while i < fruit_count:
+    fruit = input("What piece of fruit did you take out of the bag?")
+    if fruit == "banana":
+        banana_count = banana_count + 1
+    elif fruit == "apple":
+        apple_count = apple_count + 1
+    else:
+        other_count = other_count + 1
+    i = i + 1
+
+print("You have", banana_count, "bananas")
+print("You have", apple_count, "apples")
+print("You also have", other_count, "other items")    
