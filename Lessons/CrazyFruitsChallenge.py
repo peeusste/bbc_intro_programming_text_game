@@ -8,7 +8,7 @@
 
 # You can solve this challenge by using inputs, variables for counters, a while loop and if/elif statements
 
-fruit_count = int(input("How many fruits do you have?"))
+fruit_count = int(input("What piece of fruit did you take out of the bag"))
 banana_count = 0
 apple_count = 0
 
