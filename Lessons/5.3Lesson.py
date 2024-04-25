@@ -14,10 +14,10 @@ quote_list = quote.split(' ') # Split the text that is separated by spaces into 
 
 print("Words:", quote_list)
 
-len=len(quote_list)
+length = len(quote_list)
 
 # Print the number of words and the first/last word
-print("Number of Words:", len)
-print ('The first word is',quote_list[0], 'and the last word is', quote_list[len-1])
+print("Number of Words:", length)
+print ('The first word is',quote_list[0], 'and the last word is', quote_list[length-1])
 
 
