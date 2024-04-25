@@ -9,7 +9,7 @@
 quote = 'The course of true love never did run smooth'
 
 
-quote_list = quote.split(' ') # Split the text that is separated by spaces into a mylist 
+quote_list = quote.split(' ') # Split the text that is separated by spaces into a list 
 
 
 print("Words:", quote_list)
