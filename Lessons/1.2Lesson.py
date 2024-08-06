@@ -12,7 +12,7 @@ print(person2, "is", age_person2)
 print("Their combined age is", age_person1 + age_person2)
 
 ''' 
-#Could also do
+# Could also do
 combined_age = age_person1 + age_person2
 print("Their combined age is", combined_age)
 '''
