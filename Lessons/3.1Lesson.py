@@ -14,6 +14,11 @@ while i < len(films):
     print(films[i], "is one of your favourite films")    
     i += 1
 
+# Try adding a new film and removing an existing film using the append and remove methods
+films.append("It's a Wonderful Life")
+films.remove("The Matrix")
+print(films)
+             
 # Challenge #2
 # Using the same list of films, prompt the user with the name of the film and ask for a rating for that film
 # Print out the films and their corresponding ratings
