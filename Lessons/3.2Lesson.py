@@ -1,9 +1,9 @@
-# Ask the user about the weather and their preference
-good_weather = input("Is the weather good today? (yes/no): ")
-prefers_outdoor = input("Do you prefer outdoor activities? (yes/no): ")
+# Ask the user for a temperature
+temperature = int(input('Enter a temperature > '))
 
-# Suggest an outing based on the user's answers
-if good_weather=="yes" or prefers_outdoor=="yes":
-    print("How about a walk in the park?")
+# Use the or keyword to decide whether the temperature is extreme
+# You can choose your own definition of an extreme temperature
+if temperature < 0 or temperature > 30:
+    print('Extreme temperature, take care if you are going outside.')
 else:
-    print("Maybe visit a cafe or a library today.")
+    print('Normal temperature, enjoy your day!')
